@@ -1,0 +1,92 @@
+ Hanf
+
+ Timestamp is 52f21656 (Wed Feb 05 18:45:42 2014)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000438H .text                   CODE
+ 0002:00000000 0000004cH .idata$5                DATA
+ 0002:00000050 0000014dH .rdata                  DATA
+ 0002:000001a0 00000060H .rdata$debug            DATA
+ 0003:00000000 00000851H .bss                    DATA
+ 0004:00000000 0000018dH PAGE                    CODE
+ 0005:00000000 000000f3H INIT                    CODE
+ 0005:000000f4 00000014H .idata$2                CODE
+ 0005:00000108 00000014H .idata$3                CODE
+ 0005:0000011c 0000004cH .idata$4                CODE
+ 0005:00000168 0000015cH .idata$6                CODE
+ 0006:00000000 00000058H .rsrc$01                DATA
+ 0006:00000060 00000308H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0001:00000000       ?EventInitial@@YGXXZ       00011000 f   Event.obj
+ 0001:00000030       ?EventWait@@YGJPAU_SYSDATA@@@Z 00011030 f   Event.obj
+ 0001:00000140       ?EventSet@@YGXPAU_DBGINFO@@@Z 00011140 f   Event.obj
+ 0001:00000180       ?DbgPrintHookFunc@@YGJPAU_STRING@@HH@Z 00011180 f   Hook.obj
+ 0001:00000200       ?StartHook@@YGHXZ          00011200 f   Hook.obj
+ 0001:00000280       ?ClearHook@@YGXXZ          00011280 f   Hook.obj
+ 0001:000002c0       ?GetHookAddress@@YGPADXZ   000112c0 f   Hook.obj
+ 0001:00000310       ?IsHooked@@YGEE@Z          00011310 f   Hook.obj
+ 0001:00000380       _IoGetCurrentIrpStackLocation@4 00011380 f i Main.obj
+ 0001:000003cc       _KeInitializeEvent@12      000113cc f   ntoskrnl:ntoskrnl.exe
+ 0001:000003d2       _KeResetEvent@4            000113d2 f   ntoskrnl:ntoskrnl.exe
+ 0001:000003d8       _memmove                   000113d8 f   ntoskrnl:ntoskrnl.exe
+ 0001:000003de       _memset                    000113de f   ntoskrnl:ntoskrnl.exe
+ 0001:000003e4       _KeWaitForSingleObject@20  000113e4 f   ntoskrnl:ntoskrnl.exe
+ 0001:000003ea       _KeSetEvent@12             000113ea f   ntoskrnl:ntoskrnl.exe
+ 0001:000003f0       _RtlTimeToTimeFields@8     000113f0 f   ntoskrnl:ntoskrnl.exe
+ 0001:000003f6       _KeQuerySystemTime@4       000113f6 f   ntoskrnl:ntoskrnl.exe
+ 0001:000003fc       _MmIsAddressValid@4        000113fc f   ntoskrnl:ntoskrnl.exe
+ 0001:00000402       _vDbgPrintExWithPrefix@20  00011402 f   ntoskrnl:ntoskrnl.exe
+ 0001:00000408       _IoDeleteDevice@4          00011408 f   ntoskrnl:ntoskrnl.exe
+ 0001:0000040e       _IoDeleteSymbolicLink@4    0001140e f   ntoskrnl:ntoskrnl.exe
+ 0001:00000414       _RtlInitUnicodeString@8    00011414 f   ntoskrnl:ntoskrnl.exe
+ 0001:0000041a       _IoCreateSymbolicLink@8    0001141a f   ntoskrnl:ntoskrnl.exe
+ 0001:00000420       _DbgPrint                  00011420 f   ntoskrnl:ntoskrnl.exe
+ 0001:00000426       _IoCreateDevice@28         00011426 f   ntoskrnl:ntoskrnl.exe
+ 0001:0000042c       @IofCompleteRequest@8      0001142c f   ntoskrnl:ntoskrnl.exe
+ 0001:00000432       _RtlAssert@16              00011432 f   ntoskrnl:ntoskrnl.exe
+ 0002:00000000       __imp__KeInitializeEvent@12 00012000     ntoskrnl:ntoskrnl.exe
+ 0002:00000004       __imp__KeResetEvent@4      00012004     ntoskrnl:ntoskrnl.exe
+ 0002:00000008       __imp__memmove             00012008     ntoskrnl:ntoskrnl.exe
+ 0002:0000000c       __imp__memset              0001200c     ntoskrnl:ntoskrnl.exe
+ 0002:00000010       __imp__KeWaitForSingleObject@20 00012010     ntoskrnl:ntoskrnl.exe
+ 0002:00000014       __imp__KeSetEvent@12       00012014     ntoskrnl:ntoskrnl.exe
+ 0002:00000018       __imp__RtlTimeToTimeFields@8 00012018     ntoskrnl:ntoskrnl.exe
+ 0002:0000001c       __imp__KeQuerySystemTime@4 0001201c     ntoskrnl:ntoskrnl.exe
+ 0002:00000020       __imp__MmIsAddressValid@4  00012020     ntoskrnl:ntoskrnl.exe
+ 0002:00000024       __imp__vDbgPrintExWithPrefix@20 00012024     ntoskrnl:ntoskrnl.exe
+ 0002:00000028       __imp__IoDeleteDevice@4    00012028     ntoskrnl:ntoskrnl.exe
+ 0002:0000002c       __imp__IoDeleteSymbolicLink@4 0001202c     ntoskrnl:ntoskrnl.exe
+ 0002:00000030       __imp__RtlInitUnicodeString@8 00012030     ntoskrnl:ntoskrnl.exe
+ 0002:00000034       __imp__IoCreateSymbolicLink@8 00012034     ntoskrnl:ntoskrnl.exe
+ 0002:00000038       __imp__DbgPrint            00012038     ntoskrnl:ntoskrnl.exe
+ 0002:0000003c       __imp__IoCreateDevice@28   0001203c     ntoskrnl:ntoskrnl.exe
+ 0002:00000040       __imp_@IofCompleteRequest@8 00012040     ntoskrnl:ntoskrnl.exe
+ 0002:00000044       __imp__RtlAssert@16        00012044     ntoskrnl:ntoskrnl.exe
+ 0002:00000048       \177ntoskrnl_NULL_THUNK_DATA 00012048     ntoskrnl:ntoskrnl.exe
+ 0002:0000014c       ??_C@_0CM@LOONDNKF@Irp?9?$DOCurrentLocation?5?$DM?$DN?5Irp?9?$DOSta@ 0001214c     Main.obj
+ 0002:00000178       ??_C@_0CF@DDOEGKHI@D?3?2WinDDK?27600?416385?41?2inc?2ddk?2w@ 00012178     Main.obj
+ 0003:00000000       ?OEvent@@3U_KEVENT@@A      00013000     Event.obj
+ 0003:00000010       ?bIsWait@@3EA              00013010     Event.obj
+ 0003:00000011       ?bIsInitial@@3EA           00013011     Event.obj
+ 0003:00000014       ?DbgInfo@@3U_DBGINFO@@A    00013014     Event.obj
+ 0003:00000030       ?SysData@@3U_SYSDATA@@A    00013030     Event.obj
+ 0003:00000848       ?DbgPrintCall@@3P6GJPAU_STRING@@HH@ZA 00013848     Hook.obj
+ 0003:0000084c       ?cOldCode@@3PADA           0001384c     Hook.obj
+ 0004:00000000       ?UnloadDriver@@YGXPAU_DRIVER_OBJECT@@@Z 00014000 f   Main.obj
+ 0004:00000050       ?SioctlCreateClose@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z 00014050 f   Main.obj
+ 0004:00000080       ?SioctlDeviceControl@@YGJPAU_DEVICE_OBJECT@@PAU_IRP@@@Z 00014080 f   Main.obj
+ 0005:00000000       _DriverEntry@8             00015000 f   Main.obj
+ 0005:00000030       ?CreateDevice@@YGXPAU_DRIVER_OBJECT@@@Z 00015030 f   Main.obj
+ 0005:000000f4       __IMPORT_DESCRIPTOR_ntoskrnl 000150f4     ntoskrnl:ntoskrnl.exe
+ 0005:00000108       __NULL_IMPORT_DESCRIPTOR   00015108     ntoskrnl:ntoskrnl.exe
+
+ entry point at        0000:00000000
+
+ Static symbols
+
